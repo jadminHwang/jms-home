@@ -3,35 +3,39 @@
 .env.local
 .env.production
 
-# Python
+# Python 캐시 파일
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
 
-# IDE
+# 배포 파일
+*.spec
+build/
+dist/
+
+# 로그 파일
+*.log
+
+# 임시 파일
+*.tmp
+*.temp
+
+# IDE 파일
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# OS
+# OS 파일
 .DS_Store
-Thumbs.db 
+Thumbs.db
+
+# 엑셀 파일 (샘플 데이터)
+*.xlsx
+*.xls
+
+# 기타
+*.bak
+*.backup 
 
